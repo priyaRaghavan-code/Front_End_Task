@@ -1,0 +1,24 @@
+:root {
+    --background-color: #E5E7EB;
+    --widget-color: #8933FF;
+    --text-color: #808EAA;
+    --header-color: #717F9A;
+    --up-arrow-color: #3BBF48;
+    --down-arrow-color: #D53536;
+    --purple-color: #E0D0FC;
+}
+
+* {
+    background-color: var(--background-color);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    box-shadow: 5px 10px #888888;
+}
