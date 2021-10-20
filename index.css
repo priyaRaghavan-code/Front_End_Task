@@ -6,19 +6,74 @@
     --up-arrow-color: #3BBF48;
     --down-arrow-color: #D53536;
     --purple-color: #E0D0FC;
+    --card-background: #FFFFFF;
 }
+
+
+/* body {
+} */
 
 * {
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
+    box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+}
+
+
+/* 
 .card {
-    display: flex;
-    align-items: center;
-    border: 1px solid black;
-    margin-top: 20%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 20%;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+} */
+
+.card-container {
+    border: 1px solid var(--background-color);
+    text-align: left;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--card-background);
+}
+
+#container {
+    align-items: left;
+    font-size: 10px;
+}
+
+ul.list-data {
+    list-style-type: none;
+    color: var(--text-color);
+    font-size: 10px;
+    font-weight: bold;
+    /* white-space: nowrap; */
+}
+
+li:nth-child(2) {
+    color: black;
+    font-weight: bold;
+}
+
+.menu-icon {
+    left: 60px;
+}
+
+.arrow-icon {
+    color: var(--up-arrow-color);
+    margin-left: 40%;
+    font-size: 12px;
+}
+
+.red-arrow {
+    color: var(--down-arrow-color);
+    margin-left: 40%;
+    font-size: 12px;
 }
