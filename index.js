@@ -1,13 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   Highcharts.chart("container", {
     chart: {
-      //alignTicks: false,
-      height: 150,
+      height: 145,
       type: "line",
-      width: 150,
-      // inverted: "true",
+      width: 220,
     },
-    yAxis: {
+    credits: {
+      enabled: false,
+    },
+    xAxis: {
       categories: ["12Am", "8Am", "4Am", "11Pm"],
     },
     yAxis: [
@@ -15,36 +16,21 @@ document.addEventListener("DOMContentLoaded", () => {
         title: {
           text: "",
         },
-        gridLineWidth: 0,
-      },
-      {
-        title: {
-          text: "",
-        },
-        opposite: false,
       },
     ],
     title: {
       text: "",
     },
     legend: {
-      layout: "vertical",
-      backgroundColor: "#FFFFFF",
-      floating: true,
-      align: "none",
-      x: 70,
-      verticalAlign: "top",
-      y: 100,
+      enabled: false,
     },
     colors: ["#808EAA", "#8933FF"],
     series: [
       {
-        data: [1, 5, 2, 6, 3],
-        yAxis: 1,
+        data: [6, 3, 5.3, 2.5],
       },
       {
-        data: [2.9, 6.5, 7.4, 8, 3],
-        yAxis: 1,
+        data: [10, 8, 10, 8],
       },
     ],
   });
@@ -53,13 +39,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   Highcharts.chart("container1", {
     chart: {
-      //alignTicks: false,
-      height: 150,
+      height: 145,
       type: "area",
-      width: 150,
-      // inverted: "true",
+      width: 220,
     },
-    yAxis: {
+    credits: {
+      enabled: false,
+    },
+    xAxis: {
       categories: ["12Am", "8Am", "4Am", "11Pm"],
     },
     yAxis: [
@@ -67,36 +54,18 @@ document.addEventListener("DOMContentLoaded", () => {
         title: {
           text: "",
         },
-        gridLineWidth: 0,
-      },
-      {
-        title: {
-          text: "",
-        },
-        opposite: false,
       },
     ],
     title: {
       text: "",
     },
     legend: {
-      layout: "vertical",
-      backgroundColor: "#FFFFFF",
-      floating: true,
-      align: "none",
-      x: 70,
-      verticalAlign: "top",
-      y: 100,
+      enabled: false,
     },
-    colors: ["#FFD2C1", "#FFFFFF"],
+    colors: ["#FFD2C1"],
     series: [
       {
-        data: [1, 5, 2, 6, 3],
-        yAxis: 1,
-      },
-      {
-        data: [2.9, 6.5, 7.4, 8, 3],
-        yAxis: 1,
+        data: [8, 10, 6, 12],
       },
     ],
   });
@@ -105,13 +74,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   Highcharts.chart("container2", {
     chart: {
-      //alignTicks: false,
-      height: 150,
+      height: 145,
       type: "line",
-      width: 150,
-      // inverted: "true",
+      width: 220,
     },
-    yAxis: {
+    credits: {
+      enabled: false,
+    },
+    xAxis: {
       categories: ["12Am", "8Am", "4Am", "11Pm"],
     },
     yAxis: [
@@ -119,36 +89,21 @@ document.addEventListener("DOMContentLoaded", () => {
         title: {
           text: "",
         },
-        gridLineWidth: 0,
-      },
-      {
-        title: {
-          text: "",
-        },
-        opposite: false,
       },
     ],
     title: {
       text: "",
     },
     legend: {
-      layout: "vertical",
-      backgroundColor: "#FFFFFF",
-      floating: true,
-      align: "none",
-      x: 70,
-      verticalAlign: "top",
-      y: 100,
+      enabled: false,
     },
     colors: ["#808EAA", "#8933FF"],
     series: [
       {
-        data: [1, 5, 2, 6, 3],
-        yAxis: 1,
+        data: [6, 3, 5.3, 2.5],
       },
       {
-        data: [2.9, 6.5, 7.4, 8, 3],
-        yAxis: 1,
+        data: [10, 8, 10, 8],
       },
     ],
   });
@@ -157,13 +112,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   Highcharts.chart("container3", {
     chart: {
-      //alignTicks: false,
-      height: 150,
+      height: 130,
       type: "line",
-      width: 150,
-      // inverted: "true",
+      width: 220,
     },
-    yAxis: {
+    credits: {
+      enabled: false,
+    },
+    xAxis: {
       categories: ["12Am", "8Am", "4Am", "11Pm"],
     },
     yAxis: [
@@ -171,36 +127,21 @@ document.addEventListener("DOMContentLoaded", () => {
         title: {
           text: "",
         },
-        gridLineWidth: 0,
-      },
-      {
-        title: {
-          text: "",
-        },
-        opposite: false,
       },
     ],
     title: {
       text: "",
     },
     legend: {
-      layout: "vertical",
-      backgroundColor: "#FFFFFF",
-      floating: true,
-      align: "none",
-      x: 70,
-      verticalAlign: "top",
-      y: 100,
+      enabled: false,
     },
     colors: ["#808EAA", "#8933FF"],
     series: [
       {
-        data: [1, 5, 2, 6, 3],
-        yAxis: 1,
+        data: [6, 3, 5.3, 2.5],
       },
       {
-        data: [2.9, 6.5, 7.4, 8, 3],
-        yAxis: 1,
+        data: [10, 8, 10, 8],
       },
     ],
   });
@@ -209,13 +150,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   Highcharts.chart("container4", {
     chart: {
-      //alignTicks: false,
-      height: 150,
+      height: 130,
       type: "line",
-      width: 150,
-      // inverted: "true",
+      width: 220,
     },
-    yAxis: {
+    credits: {
+      enabled: false,
+    },
+    xAxis: {
       categories: ["12Am", "8Am", "4Am", "11Pm"],
     },
     yAxis: [
@@ -223,36 +165,21 @@ document.addEventListener("DOMContentLoaded", () => {
         title: {
           text: "",
         },
-        gridLineWidth: 0,
-      },
-      {
-        title: {
-          text: "",
-        },
-        opposite: false,
       },
     ],
     title: {
       text: "",
     },
     legend: {
-      layout: "vertical",
-      backgroundColor: "#FFFFFF",
-      floating: true,
-      align: "none",
-      x: 70,
-      verticalAlign: "top",
-      y: 100,
+      enabled: false,
     },
     colors: ["#808EAA", "#8933FF"],
     series: [
       {
-        data: [1, 5, 2, 6, 3],
-        yAxis: 1,
+        data: [6, 3, 5.3, 2.5],
       },
       {
-        data: [2.9, 6.5, 7.4, 8, 3],
-        yAxis: 1,
+        data: [10, 8, 10, 8],
       },
     ],
   });
@@ -264,24 +191,17 @@ document.addEventListener("DOMContentLoaded", () => {
       //alignTicks: false,
       height: 100,
       type: "area",
-      width: 100,
+      width: 180,
       // inverted: "true",
     },
-    yAxis: {
-      categories: ["12Am", "8Am", "4Am", "11Pm"],
+    credits: {
+      enabled: false,
     },
     yAxis: [
       {
         title: {
           text: "",
         },
-        gridLineWidth: 0,
-      },
-      {
-        title: {
-          text: "",
-        },
-        opposite: false,
       },
     ],
     title: {
@@ -291,7 +211,7 @@ document.addEventListener("DOMContentLoaded", () => {
       layout: "vertical",
       backgroundColor: "#FFFFFF",
       floating: true,
-      align: "none",
+      // align: "none",
       x: 70,
       verticalAlign: "top",
       y: 100,
@@ -299,8 +219,8 @@ document.addEventListener("DOMContentLoaded", () => {
     colors: ["#4AD9C2"],
     series: [
       {
-        data: [1, 5, 2, 6, 3],
-        yAxis: 1,
+        data: [10, 8, 10, 8],
+        // yAxis: 1,
       },
     ],
   });
@@ -312,24 +232,18 @@ document.addEventListener("DOMContentLoaded", () => {
       //alignTicks: false,
       height: 100,
       type: "area",
-      width: 100,
+      width: 180,
       // inverted: "true",
     },
-    yAxis: {
-      categories: ["12Am", "8Am", "4Am", "11Pm"],
+    credits: {
+      enabled: false,
     },
+
     yAxis: [
       {
         title: {
           text: "",
         },
-        gridLineWidth: 0,
-      },
-      {
-        title: {
-          text: "",
-        },
-        opposite: false,
       },
     ],
     title: {
@@ -339,16 +253,17 @@ document.addEventListener("DOMContentLoaded", () => {
       layout: "vertical",
       backgroundColor: "#FFFFFF",
       floating: true,
-      align: "none",
+      // align: "none",
       x: 70,
       verticalAlign: "top",
       y: 100,
+      enabled: false,
     },
     colors: ["#FFD2C1"],
     series: [
       {
-        data: [1, 5, 2, 6, 3],
-        yAxis: 1,
+        data: [10, 8, 10, 8],
+        // yAxis: 1,
       },
     ],
   });
@@ -360,11 +275,8 @@ document.addEventListener("DOMContentLoaded", () => {
       //alignTicks: false,
       height: 100,
       type: "area",
-      width: 100,
+      width: 180,
       // inverted: "true",
-    },
-    yAxis: {
-      categories: ["12Am", "8Am", "4Am", "11Pm"],
     },
     yAxis: [
       {
@@ -392,15 +304,11 @@ document.addEventListener("DOMContentLoaded", () => {
       verticalAlign: "top",
       y: 100,
     },
-    colors: ["#FFD2C1", " #8933FF"],
+    colors: [" #8933FF"],
     series: [
       {
-        data: [1, 5, 2, 6, 3],
-        yAxis: 1,
-      },
-      {
-        data: [2.9, 6.5, 7.4, 8, 3],
-        yAxis: 1,
+        data: [10, 8, 10, 8],
+        // yAxis: 1,
       },
     ],
   });
